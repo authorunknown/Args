@@ -1,0 +1,6 @@
+﻿<NUnitProject>
+  <Settings activeconfig="Default" />
+  <Config name="Default" binpathtype="Auto" runtimeFramework="v2.0">
+    <assembly path="Args.Test\bin\Debug\Args.Test.dll" />
+  </Config>
+</NUnitProject>

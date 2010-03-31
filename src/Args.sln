@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_misc", "_misc", "{85BB00CE-B787-46D6-A7AF-E16C244B4DB6}"
+	ProjectSection(SolutionItems) = preProject
+		CommonAssemblyInfo.cs = CommonAssemblyInfo.cs
+		tests.nunit = tests.nunit
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Args", "Args\Args.csproj", "{BFDABA66-9352-4BB8-9D9D-FEF7110BF041}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Args.Test", "Args.Test\Args.Test.csproj", "{A1D8C706-9991-4986-A195-064BB03963CB}"
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFDABA66-9352-4BB8-9D9D-FEF7110BF041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFDABA66-9352-4BB8-9D9D-FEF7110BF041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFDABA66-9352-4BB8-9D9D-FEF7110BF041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFDABA66-9352-4BB8-9D9D-FEF7110BF041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1D8C706-9991-4986-A195-064BB03963CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1D8C706-9991-4986-A195-064BB03963CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1D8C706-9991-4986-A195-064BB03963CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1D8C706-9991-4986-A195-064BB03963CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
