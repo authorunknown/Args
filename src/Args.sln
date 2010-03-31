@@ -4,7 +4,7 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_misc", "_misc", "{85BB00CE-B787-46D6-A7AF-E16C244B4DB6}"
 	ProjectSection(SolutionItems) = preProject
 		CommonAssemblyInfo.cs = CommonAssemblyInfo.cs
-		readme.txt = readme.txt
+		..\readme.txt = ..\readme.txt
 		tests.nunit = tests.nunit
 	EndProjectSection
 EndProject
