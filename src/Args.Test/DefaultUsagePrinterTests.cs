@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using NUnit.Framework;
-using Args.Test.Mocks;
 using System.IO;
+using System.Linq;
+using Args.Test.Mocks;
+using NUnit.Framework;
 
 namespace Args.Test
 {

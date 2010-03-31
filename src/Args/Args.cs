@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.IO;
 using System.Reflection;
 
@@ -15,6 +13,11 @@ namespace Args
         private Args()
         {
             _args = new List<IArgumentInfo>();
+        }
+
+        public Args(string description)
+            : this(description, Assembly.GetEntryAssembly())
+        {
         }
 
         public Args(string description, Assembly programAssembly)
